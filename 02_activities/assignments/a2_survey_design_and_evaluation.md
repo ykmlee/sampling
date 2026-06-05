@@ -79,17 +79,17 @@ Your 5-10 question survey:
 Identify and describe survey features:
 
 ```
-1. Sample type - stratified random sample
+1. Sample type - cross sectional stratified random sample
 2. Sample size - 16,149 
 3. Target population - persons aged 15 years and over living in private households in Canada, excluding residents of the Yukon, Northwest Territories and Nunavut and full time residents of institutions
 4. Sampling frame - private households in the 10 provinces
-5. Survey mode(s) - online questionnaire
+5. Survey mode(s) - Mixed-mode collection using electronic questionnaires (online) and telephone interviews (CATI - comptuer assisted telephone interviewing).
 6. Timeline - 2018 (Cycle 33 field collection year)
 7. Response rate - The overall response rate was 40.9% (42.2% for the regular sample and 37.1% for the oversample).
-8. Weights -  Survey estimates were be adjusted (i.e. weighted) to account for non-response cases. 
-9. Data processing - imputation, Edits were performed automatically and manually at various stages of processing at macro and micro levels. Data verification was carried out using consistency and flow edits. A series of checks were done to ensure the consistency of the survey data, for example, checking the respondent's reported age against the date of birth coming from the sample file. Flow edits were used to ensure respondents followed the correct path and fix off-path situations.
-10. Cleaning, imputation, etc
-11. Sources of error - Sampling error: differences between the sample and the full population due to random selection; Non-response error: some selected individuals did not participate; Measurement error: misreporting or misunderstanding survey questions
+8. Weights -  Survey estimates were be adjusted (i.e. weighted) to account for non-response cases. Estimation wieght was the basic weighting factor for analysis at the person level. In addition to the estimation weights, bootstrap weights have been created for the purpose of design-based variance estimation.
+9. Data processing - Edits were performed automatically and manually at various stages of processing at macro and micro levels. Data verification was carried out using consistency and flow edits. A series of checks were done to ensure the consistency of the survey data, for example, checking the respondent's reported age against the date of birth coming from the sample file. Flow edits were used to ensure respondents followed the correct path and fix off-path situations. Most error detection was done through pre-determined edits programmed into the EQ system.
+10. Cleaning, imputation, etc - All imputations were made using donor imputation i.e. used donor records selected through a score function to impute missing values. 
+11. Sources of error - Sampling error: differences between the sample and the full population due to random selection; Non-response error: some selected individuals did not participate; Measurement error: misreporting or misunderstanding survey questions; Coverage errors: differences between the target population and the surveyed population
 12. Limitations, known biases, etc - Declining response rates, which may increase non-response bias, new online questionnaire response option in 2018 may affect response rate, Exclusion of territories and institutional populations, limiting full national coverage, Recall bias, especially for volunteering hours and donations (self-reported data)
 
 13. Link to documentation and any additional sources used
